@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills — René Mourambou Diyema</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/skills.css"/>
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Home</a>
+    <div class="nav-links">
+      <a href="about.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html" class="active">Skills</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="about.html">About</a>
+    <a href="education.html">Education</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main class="page">
+    <div class="page-header">
+      <div class="page-tag animate-in" style="--delay:0.1s"><span class="mono">05 /</span> Skills</div>
+      <h1 class="page-title animate-in" style="--delay:0.25s">Technologies &amp; <em>Expertise</em></h1>
+    </div>
+
+    <div class="skills-layout">
+
+      <div class="skill-group animate-in" style="--delay:0.4s">
+        <h3 class="group-title">Languages</h3>
+        <div class="skill-bars">
+          <div class="skill-bar" data-level="90"><span class="skill-name">Python</span><div class="bar"><div class="bar-fill"></div></div><span class="skill-pct">Advanced</span></div>
+          <div class="skill-bar" data-level="90"><span class="skill-name">C++</span><div class="bar"><div class="bar-fill"></div></div><span class="skill-pct">Advanced</span></div>
+          <div class="skill-bar" data-level="75"><span class="skill-name">SQL</span><div class="bar"><div class="bar-fill"></div></div><span class="skill-pct">Proficient</span></div>
+          <div class="skill-bar" data-level="70"><span class="skill-name">CUDA</span><div class="bar"><div class="bar-fill"></div></div><span class="skill-pct">Proficient</span></div>
+        </div>
+      </div>
+
+      <div class="skill-group animate-in" style="--delay:0.5s">
+        <h3 class="group-title">Deep Learning Frameworks</h3>
+        <div class="skill-bars">
+          <div class="skill-bar" data-level="90"><span class="skill-name">PyTorch</span><div class="bar"><div class="bar-fill"></div></div><span class="skill-pct">Advanced</span></div>
+          <div class="skill-bar" data-level="90"><span class="skill-name">TensorFlow / Keras</span><div class="bar"><div class="bar-fill"></div></div><span class="skill-pct">Advanced</span></div>
+          <div class="skill-bar" data-level="78"><span class="skill-name">Transformers (HF)</span><div class="bar"><div class="bar-fill"></div></div><span class="skill-pct">Proficient</span></div>
+          <div class="skill-bar" data-level="70"><span class="skill-name">LangChain</span><div class="bar"><div class="bar-fill"></div></div><span class="skill-pct">Proficient</span></div>
+        </div>
+      </div>
+
+      <div class="skill-group animate-in" style="--delay:0.6s">
+        <h3 class="group-title">Computer Vision & Image processing</h3>
+        <div class="skill-tags">
+          <span>OpenCV</span><span>Open3D</span><span>PyTorch3D</span>
+          <span>NeRF</span><span>Differentiable Rendering</span><span>CNN</span>
+          <span>CLIP</span><span>Object Detection</span><span>Object Recognition</span>
+        </div>
+      </div>
+
+      <div class="skill-group animate-in" style="--delay:0.7s">
+        <h3 class="group-title">NLP & Generative Models</h3>
+        <div class="skill-tags">
+          <span>Variational Autoencoders</span><span>Transformer Architecture</span>
+          <span>Seq2Seq Modelling</span><span>GAN</span>
+          <span>Semantic Representation</span>
+          <span>Graph neural Networks</span>
+          <span>Bayesian Inference</span>
+        </div>
+      </div>
+
+      <div class="skill-group animate-in" style="--delay:0.8s">
+        <h3 class="group-title">Tools & Infrastructure</h3>
+        <div class="skill-tags">
+          <span>Linux</span><span>Git</span><span>OpenMP</span>
+          <span>Boost</span><span>Eigen</span><span>Docker</span>
+          <span>Kubernetes</span><span>Debugging</span><span>Testing</span><span>Documentation</span>
+          <span>Parallel Programming</span><span>Distributed Systems</span>
+        </div>
+      </div>
+
+      <div class="skill-group animate-in" style="--delay:0.85s">
+        <h3 class="group-title">Languages</h3>
+        <div class="lang-cards">
+          <div class="lang-card">
+            <span class="lang-flag">🇫🇷</span>
+            <span class="lang-name">French</span>
+            <span class="lang-level">Native</span>
+          </div>
+          <div class="lang-card">
+            <span class="lang-flag">🇬🇧</span>
+            <span class="lang-name">English</span>
+            <span class="lang-level">Fluent</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="nav-pages animate-in" style="--delay:1.1s">
+      <a href="projects.html" class="prev-page">← Projects</a>
+      <a href="contact.html" class="next-page">Contact →</a>
+    </div>
+  </main>
+
+  <script src="js/skills.js"></script>
+</body>
+</html>

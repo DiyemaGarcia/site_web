@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects — René Mourambou Diyema</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/projects.css"/>
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Home</a>
+    <div class="nav-links">
+      <a href="about.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="about.html">About</a>
+    <a href="education.html">Education</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main class="page">
+    <div class="page-header">
+      <div class="page-tag animate-in" style="--delay:0.1s"><span class="mono">04 /</span> Projects</div>
+      <h1 class="page-title animate-in" style="--delay:0.25s">Research and Development <em>Projects</em></h1>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card animate-in" style="--delay:0.4s">
+        <div class="project-number">01</div>
+        <div class="project-content">
+          <!--<div class="project-period">Jan 2025 — May 2025</div>-->
+          <div class="project-period">University Project</div>
+          <h2 class="project-title">Instruction-Following Multimodal Agent<br/><em>with Vision-Language-Action Reasoning</em></h2>
+          <ul class="project-bullets">
+            <li>Built a multimodal agent combining text, vision, and reasoning for instruction following.</li>
+            <li>Fused CLIP visual embeddings with open-source LLM (LLaMA) via cross-attention.</li>
+            <li>Implemented an "Observation → Reasoning → Action" loop using LangChain.</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>PyTorch</span><span>C++</span>
+            <span>CUDA</span><span>LangChain</span><span>Transformers</span>
+            <span>CLIP</span><span>LLaMA</span><span>Multimodal Learning</span>
+          </div>
+          <button class="view-project-btn" data-id="p01">View Project →</button>
+        </div>
+        <div class="project-accent"></div>
+      </div>
+
+      <div class="project-card animate-in" style="--delay:0.55s">
+        <div class="project-number">02</div>
+        <div class="project-content">
+          <!--<div class="project-period">Dec 2023 — Apr 2024</div>-->
+          <div class="project-period">University Project</div>
+          <h2 class="project-title">3D Scene Reconstruction &amp; Estimation<br/><em>using Implicit Neural Representation</em></h2>
+          <ul class="project-bullets">
+            <li>Dense 3D reconstruction from monocular video using implicit NeRF representations.</li>
+            <li>Self-supervised depth and camera pose estimation with photometric consistency.</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>PyTorch</span><span>PyTorch3D</span>
+            <span>OpenCV</span><span>Open3D</span><span>C++</span>
+            <span>CUDA</span><span>NeRF</span><span>Differentiable Rendering</span>
+          </div>
+          <button class="view-project-btn" data-id="p02">View Project →</button>
+        </div>
+        <div class="project-accent"></div>
+      </div>
+
+      <div class="project-card animate-in" style="--delay:0.7s">
+        <div class="project-number">03</div>
+        <div class="project-content">
+          <!--<div class="project-period">Nov 2022 — Mar 2023</div>-->
+          <div class="project-period">University Project</div>
+          <h2 class="project-title">Unsupervised Morphological &amp; Syntactic<br/><em>Structure Induction via Variational Autoencoders</em></h2>
+          <ul class="project-bullets">
+            <li>Unsupervised learning of linguistic morphology and syntax using a sequence-to-sequence VAE.</li>
+            <li>Optimised the ELBO with latent space constraints to capture grammatical regularities.</li>
+            <li>Analysed latent representations and their correlation with linguistic categories.</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>PyTorch</span><span>SpaCy</span>
+            <span>NLTK</span><span>C++</span><span>CUDA</span>
+            <span>Bayesian Inference</span><span>Statistical Linguistics</span>
+          </div>
+          <button class="view-project-btn" data-id="p03">View Project →</button>
+        </div>
+        <div class="project-accent"></div>
+      </div>
+
+      <div class="project-card animate-in" style="--delay:0.85s">
+        <div class="project-number">04</div>
+        <div class="project-content">
+          <div class="project-period">University Project - Replication — Zoph &amp; Le, 2017</div>
+          <h2 class="project-title">Neural Architecture Search<br/><em>with Reinforcement Learning</em></h2>
+          <ul class="project-bullets">
+            <li>Replicated a controller RNN trained with REINFORCE to generate and optimise neural network architectures automatically.</li>
+            <li>Reproduced child network training loops on image classification tasks, evaluating architectures via validation accuracy as reward signal.</li>
+            <li>Analysed convergence behaviour and architecture diversity across search iterations, validating results against the original paper benchmarks.</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>PyTorch</span><span>Reinforcement Learning</span>
+            <span>REINFORCE</span><span>RNN Controller</span><span>AutoML</span>
+            <span>NAS</span><span>CIFAR-10</span>
+          </div>
+          <button class="view-project-btn" data-id="p04">View Project →</button>
+        </div>
+        <div class="project-accent"></div>
+      </div>
+
+      <div class="project-card animate-in" style="--delay:1.0s">
+        <div class="project-number">05</div>
+        <div class="project-content">
+          <div class="project-period">University Project - Replication — Chijiwa et al., 2023</div>
+          <h2 class="project-title">Transferring Learning Trajectories<br/><em>on Neural Networks</em></h2>
+          <ul class="project-bullets">
+            <li>Replicated the learning trajectory transfer framework, enabling a target network to inherit the optimisation path of a source network across different architectures.</li>
+            <li>Implemented function-preserving transformations and trajectory alignment mechanisms to accelerate convergence on downstream tasks.</li>
+            <li>Benchmarked training efficiency gains and generalisation performance against standard fine-tuning and random initialisation baselines.</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>PyTorch</span><span>Transfer Learning</span>
+            <span>Optimisation</span><span>Fine-tuning</span><span>Knowledge Transfer</span>
+            <span>ResNet</span><span>Vision Transformers</span>
+          </div>
+          <button class="view-project-btn" data-id="p05">View Project →</button>
+        </div>
+        <div class="project-accent"></div>
+      </div>
+
+      <div class="project-card animate-in" style="--delay:1.15s">
+        <div class="project-number">06</div>
+        <div class="project-content">
+          <div class="project-period">University Project - Replication — Huichuan Zhou, 2024</div>
+          <h2 class="project-title">Feature Detection Comparison:<br/><em>Classical vs Deep Learning Methods</em></h2>
+          <ul class="project-bullets">
+            <li>Replicated a systematic comparative study of classical feature detectors (SIFT, SURF, ORB, FAST) against deep learning-based methods (SuperPoint, D2-Net) across varied imaging conditions.</li>
+            <li>Evaluated detectors on repeatability, matching precision, and computational efficiency under illumination changes, scale variation, and viewpoint transformation.</li>
+            <li>Reproduced quantitative benchmarks on HPatches and custom datasets, confirming the superiority of learned descriptors under challenging conditions.</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>OpenCV</span><span>PyTorch</span>
+            <span>SIFT</span><span>ORB</span><span>SuperPoint</span>
+            <span>D2-Net</span><span>Image Processing</span><span>Computer Vision</span>
+          </div>
+          <button class="view-project-btn" data-id="p06">View Project →</button>
+        </div>
+        <div class="project-accent"></div>
+      </div>
+
+      <div class="project-card animate-in" style="--delay:1.3s">
+        <div class="project-number">07</div>
+        <div class="project-content">
+          <div class="project-period">University Project - Replication — Silver et al., 2014</div>
+          <h2 class="project-title">Deterministic Policy Gradient<br/><em>Algorithm</em></h2>
+          <ul class="project-bullets">
+            <li>Replicated the Deterministic Policy Gradient (DPG) theorem and its actor-critic implementation, enabling gradient-based policy optimisation in continuous action spaces.</li>
+            <li>Implemented both on-policy and off-policy DPG variants with compatible function approximation, reproducing convergence guarantees from the original paper.</li>
+            <li>Validated the approach on continuous control benchmarks, comparing sample efficiency and policy stability against stochastic policy gradient methods.</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>PyTorch</span><span>Reinforcement Learning</span>
+            <span>Actor-Critic</span><span>DPG</span><span>Continuous Control</span>
+          </div>
+          <button class="view-project-btn" data-id="p07">View Project →</button>
+        </div>
+        <div class="project-accent"></div>
+      </div>
+
+      <div class="project-card animate-in" style="--delay:1.45s">
+        <div class="project-number">08</div>
+        <div class="project-content">
+          <div class="project-period">University Project - Replication — Yang, Meng &amp; Karniadakis, 2020</div>
+          <h2 class="project-title">B-PINNs: Bayesian Physics-Informed<br/><em>Neural Networks for PDE Problems</em></h2>
+          <ul class="project-bullets">
+            <li>Replicated the B-PINN framework combining Bayesian inference with physics-informed neural networks to solve forward and inverse PDE problems under noisy data conditions.</li>
+            <li>Implemented Hamiltonian Monte Carlo (HMC) and variational inference backends to quantify uncertainty in both network parameters and PDE solution fields.</li>
+            <li>Reproduced experiments on Poisson, Burgers, and Schrödinger equations, validating posterior predictive accuracy and uncertainty calibration against original benchmarks.</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>PyTorch</span><span>JAX</span>
+            <span>Bayesian Inference</span><span>HMC</span><span>Variational Inference</span>
+            <span>PINNs</span><span>PDEs</span><span>Scientific ML</span>
+          </div>
+          <button class="view-project-btn" data-id="p08">View Project →</button>
+        </div>
+        <div class="project-accent"></div>
+      </div>
+
+      <div class="all-projects animate-in" style="--delay:1.6s">
+        <button class="all-projects-btn" id="btnAllProjects">
+          View all projects on GitHub →
+        </button>
+      </div>
+      
+    </div>
+
+    <div class="nav-pages animate-in" style="--delay:1s">
+      <a href="experience.html" class="prev-page">← Experience</a>
+      <a href="skills.html" class="next-page">Skills →</a>
+    </div>
+  </main>
+
+  <script src="js/projects.js"></script>
+</body>
+</html>
