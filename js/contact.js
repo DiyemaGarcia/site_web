@@ -44,7 +44,7 @@ if (emailItem) {
 const _s = {
   li: atob('aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2luL2dhcmNpYWpvc2lhc2RpeWVtYQ=='),
   gh: atob('aHR0cHM6Ly9naXRodWIuY29tL0RpeWVtYUdhcmNpYQ=='),
-  md: atob('aHR0cHM6Ly9tZWRpdW0uY29tL0BnYXJjaWFnYXJjaWEyOTM=')
+  md: atob('aHR0cHM6Ly9tZWRpdW0uY29tL0BnYXJjaWFnYXJjaWEyOTMvYWJvdXQ=')
 };
 
 document.getElementById('btnLinkedIn').addEventListener('click', () => {

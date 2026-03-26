@@ -40,9 +40,9 @@ const obs = new IntersectionObserver(entries => {
 cards.forEach(c => obs.observe(c));
 
 const _projects = {
-  p01: atob('aHR0cHM6Ly9naXRodWIuY29tL0RpeWVtYUdhcmNpYQ=='),
-  p02: atob('aHR0cHM6Ly9naXRodWIuY29tL0RpeWVtYUdhcmNpYQ=='),
-  p03: atob('aHR0cHM6Ly9naXRodWIuY29tL0RpeWVtYUdhcmNpYQ=='),
+  p01: atob('aHR0cHM6Ly9naXRodWIuY29tL0RpeWVtYUdhcmNpYS9pbnN0cnVjdGlvbl9mb2xsb3dpbmdfbXVsdGltb2RhbF9hZ2VudF93aXRoX3Zpc2lvbl9sYW5ndWFnZV9hY3Rpb25fcmVhc29uaW5n'),
+  p02: atob('aHR0cHM6Ly9naXRodWIuY29tL0RpeWVtYUdhcmNpYS8zZF9zY2VuZS1fcmVjb25zdHJ1Y3Rpb25fYW5kX2VzdGltYXRpb25fdXNpbmdfaW1wbGljaXRfbmV1cmFsX3JlcHJlc2VudGF0aW9u'),
+  p03: atob('aHR0cHM6Ly9naXRodWIuY29tL0RpeWVtYUdhcmNpYS91bnN1cGVydmlzZWRfbW9ycGhvbG9naWNhbF9hbmRfc3ludGFjdGljX3N0cnVjdHVyZV9pbmR1Y3Rpb25fdmlhX3ZhcmlhdGlvbmFsX2F1dG9lbmNvZGVycw=='),
   p04: atob('aHR0cHM6Ly9naXRodWIuY29tL0RpeWVtYUdhcmNpYS9OZXVyYWwtQXJjaGl0ZWN0dXJlLVNlYXJjaC13aXRoLVJlaW5mb3JjZW1lbnQtTGVhcm5pbmc='),
   p05: atob('aHR0cHM6Ly9naXRodWIuY29tL0RpeWVtYUdhcmNpYS9UcmFuc2ZlcnJpbmctTGVhcm5pbmctVHJhamVjdG9yaWVzLW9uLU5ldXJhbC1OZXR3b3Jrcw=='),
   p06: atob('aHR0cHM6Ly9naXRodWIuY29tL0RpeWVtYUdhcmNpYS9GZWF0dXJlLURldGVjdGlvbi1BLUNvbXBhcmF0aXZlLVN0dWR5LW9mLUNsYXNzaWNhbC1hbmQtRGVlcC1MZWFybmluZy1NZXRob2RzLUFjcm9zcy1Db21wbGV4LVNjZW5lcw=='),
