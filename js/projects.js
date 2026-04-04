@@ -144,15 +144,6 @@ modalImgs.forEach(img => {
     zoomFullImg.src = img.src;
     zoomOverlay.classList.add('open');
   });
-
-  // MOBILE 
-  img.addEventListener('touchstart', e => {
-    if (!isTouchDevice()) return;
-    e.preventDefault();
-    e.stopPropagation();
-    zoomFullImg.src = img.src;
-    zoomOverlay.classList.add('open');
-  }, { passive: false });
 });
 
 // DESKTOP 
@@ -161,20 +152,3 @@ zoomOverlay.addEventListener('mouseleave', () => {
   zoomOverlay.classList.remove('open');
   zoomFullImg.src = '';
 });
-
-// MOBILE
-zoomOverlay.addEventListener('touchstart', e => {
-  if (!isTouchDevice()) return;
-  const rect = zoomFullImg.getBoundingClientRect();
-  const touch = e.touches[0];
-  const insideImg =
-    touch.clientX >= rect.left &&
-    touch.clientX <= rect.right &&
-    touch.clientY >= rect.top &&
-    touch.clientY <= rect.bottom;
-  if (!insideImg) {
-    e.preventDefault();
-    zoomOverlay.classList.remove('open');
-    zoomFullImg.src = '';
-  }
-}, { passive: false });
