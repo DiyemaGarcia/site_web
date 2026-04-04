@@ -113,13 +113,15 @@ document.querySelectorAll('.preview-btn').forEach(btn => {
     });
 
     modal.classList.add('open');
-    document.body.style.overflow = 'hidden';
+    /*document.body.style.overflow = 'hidden';*/
+    if (!isTouchDevice()) document.body.style.overflow = 'hidden';
   });
 });
 
 function closeModal() {
   modal.classList.remove('open');
-  document.body.style.overflow = '';
+  /*document.body.style.overflow = '';*/
+  if (!isTouchDevice()) document.body.style.overflow = '';
   modalImgs.forEach(img => { img.src = ''; });
 }
 
