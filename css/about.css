@@ -244,3 +244,11 @@ body {
   .info-card li { flex-direction: column; gap: 0.2rem; }
   .info-card .value { text-align: left; }
 }
+
+@media (max-width: 1024px) {
+  .mobile-menu {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
+  }
+}

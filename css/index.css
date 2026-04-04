@@ -399,3 +399,11 @@ body:hover .cursor { opacity: 1; }
   .side-num { font-size: 2rem; }
   .scroll-hint { display: none; }
 }
+
+@media (max-width: 1024px) {
+  .mobile-menu {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
+  }
+}
