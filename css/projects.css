@@ -335,14 +335,13 @@ body { background:var(--black);color:var(--cream);font-family:var(--font-body);o
 
 @media (max-width: 1024px) {
   .modal-img {
-    touch-action: pan-y;
-    pointer-events: none;
+    touch-action: auto;
   }
   .modal-grid {
-    touch-action: pan-y;
+    touch-action: auto;
   }
   .modal-box {
-    touch-action: pan-y;
+    touch-action: auto;
     -webkit-overflow-scrolling: touch;
   }
 }
