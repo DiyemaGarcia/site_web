@@ -36,6 +36,48 @@ body { background:var(--black);color:var(--cream);font-family:var(--font-body);o
 .mobile-menu a:hover { color:var(--gold); }
 
 .animate-in { opacity:0;transform:translateY(24px);animation:revealUp .8s var(--ease) forwards;animation-delay:var(--delay,0s); }
+
+.nav-cv-btn {
+  font-family: var(--font-body); font-size: .65rem;
+  letter-spacing: .14em; text-transform: uppercase;
+  color: var(--gold); background: transparent;
+  border: 1px solid var(--gold-dim); border-radius: 2px;
+  padding: .5rem 1.1rem; text-decoration: none;
+  transition: background .25s, color .25s, border-color .25s, transform .2s var(--ease);
+  white-space: nowrap;
+}
+.nav-cv-btn:hover {
+  background: rgba(201,168,76,.1);
+  border-color: var(--gold);
+  color: var(--cream);
+  transform: translateY(-2px);
+}
+
+.mobile-cv-btn {
+  font-family: var(--font-body) !important;
+  font-size: .72rem !important;
+  font-style: normal !important;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gold) !important;
+  background: transparent !important;
+  border: 1px solid var(--gold-dim);
+  padding: .7rem 2rem !important;
+  border-radius: 2px;
+  margin-top: 1rem;
+  transition: background .25s, color .25s, border-color .25s;
+}
+.mobile-cv-btn:hover {
+  background: rgba(201,168,76,.1) !important;
+  border-color: var(--gold);
+  color: var(--cream) !important;
+}
+
+
+@media (max-width: 1024px) {
+  .nav-cv-btn { display: none; }
+}
+
 @keyframes revealUp { to { opacity:1;transform:translateY(0); } }
 
 .page { min-height:100vh;padding:8rem 4rem 4rem;max-width:1100px;margin:0 auto; }
@@ -70,7 +112,7 @@ body { background:var(--black);color:var(--cream);font-family:var(--font-body);o
 }
 
 .exp-body { padding-top:.1rem; }
-.exp-company { font-family:var(--font-mono);font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-dim);margin-bottom:.5rem; }
+.exp-company { font-family:var(--font-mono);font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-dim);margin-bottom:.5rem; }
 .exp-role { font-family:var(--font-display);font-size:2rem;font-weight:300;line-height:1.1;color:var(--white);margin-bottom:1.2rem; }
 .exp-role em { font-style:italic;color:var(--gold); }
 
