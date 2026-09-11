@@ -46,6 +46,7 @@
 
     <div class="projects-grid">
 
+      <!-- PROJECT 1 -->
       <div class="project-card animate-in" style="--delay:0.4s">
         <button class="preview-btn" data-project="01" aria-label="Preview project">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -56,24 +57,26 @@
         </button>
         <div class="project-number">01</div>
         <div class="project-content">
-          <!--<div class="project-period">Jan 2025 — May 2025</div>-->
-          <div class="project-period">University Project</div>
-          <h2 class="project-title">Instruction-Following Multimodal Agent<br/><em>with Vision-Language-Action Reasoning</em></h2>
+          <div class="project-period">Jan 2026 — Mar 2026</div>
+          <h2 class="project-title">AI-Powered Investor Intelligence Platform<br/><em>with Retrieval-Augmented Financial Reasoning</em></h2>
           <ul class="project-bullets">
-            <li>Built a multimodal agent combining text, vision, and reasoning for instruction following.</li>
-            <li>Fused CLIP visual embeddings with open-source LLM (LLaMA) via cross-attention.</li>
-            <li>Implemented an "Observation → Reasoning → Action" loop using LangChain.</li>
+            <li>Built an ETL pipeline to parse, clean and semantically chunk financial reports, generating embeddings for indexing and retrieval.</li>
+            <li>Combined vector search with a large language model to extract structured financial KPIs grounded in the retrieved document context.</li>
+            <li>Assessed retrieval relevance and extraction accuracy through error analysis across companies and fiscal years to guide improvements.</li>
+            <li>Deployed the "Ingestion → Retrieval → Insight" pipeline on Azure Kubernetes Service, with automated CI/CD pipelines and an analytics dashboard to monitor KPIs in production.</li>
           </ul>
           <div class="project-stack">
-            <span>Python</span><span>PyTorch</span><span>C++</span>
-            <span>CUDA</span><span>LangChain</span><span>Transformers</span>
-            <span>CLIP</span><span>LLaMA</span><span>Multimodal Learning</span>
+            <span>Python</span><span>LangChain</span><span>Azure OpenAI</span><span>Azure AI Search</span>
+            <span>Embeddings</span><span>Vector Search</span><span>RAG</span><span>LLMs</span>
+            <span>AI Agents</span><span>FastAPI</span><span>PostgreSQL</span><span>Docker</span>
+            <span>Azure Kubernetes Service</span><span>Git</span><span>CI/CD</span>
           </div>
           <button class="view-project-btn" data-id="p01">View Project →</button>
         </div>
         <div class="project-accent"></div>
       </div>
 
+      <!-- PROJECT 2 -->
       <div class="project-card animate-in" style="--delay:0.55s">
         <button class="preview-btn" data-project="02" aria-label="Preview project">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -84,23 +87,25 @@
         </button>
         <div class="project-number">02</div>
         <div class="project-content">
-          <!--<div class="project-period">Dec 2023 — Apr 2024</div>-->
-          <div class="project-period">University Project</div>
-          <h2 class="project-title">3D Scene Reconstruction &amp; Estimation<br/><em>using Implicit Neural Representation</em></h2>
+          <div class="project-period">Jan 2025 — May 2025</div>
+          <h2 class="project-title">Instruction-Following Multimodal Agent<br/><em>with Vision-Language-Action Reasoning</em></h2>
           <ul class="project-bullets">
-            <li>Dense 3D reconstruction from monocular video using implicit NeRF representations.</li>
-            <li>Self-supervised depth and camera pose estimation with photometric consistency.</li>
+            <li>Built a data pipeline to collect and preprocess multimodal data (text and image) for training and testing the agent.</li>
+            <li>Combined visual embeddings with a large language model through cross-attention to align image and text representations.</li>
+            <li>Assessed reasoning and decision accuracy through statistical analysis across varied instruction scenarios to guide improvements.</li>
+            <li>Deployed the "Observation → Reasoning → Action" pipeline on Azure Machine Learning, with automated CI/CD pipelines and monitoring dashboards to track performance in production.</li>
           </ul>
           <div class="project-stack">
-            <span>Python</span><span>PyTorch</span><span>PyTorch3D</span>
-            <span>OpenCV</span><span>Open3D</span><span>C++</span>
-            <span>CUDA</span><span>NeRF</span><span>Differentiable Rendering</span>
+            <span>Python</span><span>PyTorch</span><span>C++</span><span>CUDA</span>
+            <span>LangChain</span><span>Transformers</span><span>Multimodal Learning</span>
+            <span>Azure Machine Learning</span><span>CI/CD</span><span>Monitoring</span>
           </div>
           <button class="view-project-btn" data-id="p02">View Project →</button>
         </div>
         <div class="project-accent"></div>
       </div>
 
+      <!-- PROJECT 3 — CURRENT 09 -->
       <div class="project-card animate-in" style="--delay:0.7s">
         <button class="preview-btn" data-project="03" aria-label="Preview project">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -111,353 +116,136 @@
         </button>
         <div class="project-number">03</div>
         <div class="project-content">
-          <!--<div class="project-period">Nov 2022 — Mar 2023</div>-->
           <div class="project-period">University Project</div>
-          <h2 class="project-title">Unsupervised Morphological &amp; Syntactic<br/><em>Structure Induction via Variational Autoencoders</em></h2>
+          <h2 class="project-title">Multimodal Visual Perception Platform<br/><em>for Real-Time Cognitive Assistance</em></h2>
           <ul class="project-bullets">
-            <li>Unsupervised learning of linguistic morphology and syntax using a sequence-to-sequence VAE.</li>
-            <li>Optimised the ELBO with latent space constraints to capture grammatical regularities.</li>
-            <li>Analysed latent representations and their correlation with linguistic categories.</li>
+            <li>Engineered an ETL pipeline to collect, preprocess, and synchronize video, audio, and contextual data for real-time semantic scene understanding.</li>
+            <li>Implemented and fine-tuned a vision-language fusion model, combining Vision Transformer (ViT) representations with a large language model to extract spatial relations, human interactions, and contextual reasoning.</li>
+            <li>Benchmarked perception and reasoning performance through statistical and error analysis across diverse real-time scenarios to guide model improvements.</li>
+            <li>Deployed the multimodal inference pipeline on AWS (EC2, S3, SageMaker), building automated CI/CD workflows to streamline releases.</li>
+            <li>Set up MLOps practices and monitoring dashboards to track model and system performance in production.</li>
           </ul>
           <div class="project-stack">
-            <span>Python</span><span>PyTorch</span><span>SpaCy</span>
-            <span>NLTK</span><span>C++</span><span>CUDA</span>
-            <span>Bayesian Inference</span><span>Statistical Linguistics</span>
+            <span>Python</span><span>PyTorch</span><span>CUDA</span>
+            <span>Transformers</span><span>Vision Transformers</span><span>GPT-4V</span>
+            <span>Multimodal Learning</span><span>Vision-Language Models</span>
+            <span>TensorRT</span><span>ONNX</span><span>Vector Databases</span>
+            <span>AWS EC2</span><span>AWS S3</span><span>AWS SageMaker</span>
+            <span>Docker</span><span>Git</span><span>CI/CD</span><span>MLOps</span>
+            <span>Model Monitoring</span><span>XAI</span>
           </div>
           <button class="view-project-btn" data-id="p03">View Project →</button>
         </div>
         <div class="project-accent"></div>
       </div>
 
+      <!-- PROJECT 4 — CURRENT 10 -->
       <div class="project-card animate-in" style="--delay:0.85s">
         <button class="preview-btn" data-project="04" aria-label="Preview project">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+            <path d="M1 12s4-8 11 12 11 8-11 8-11-8-11-8z"/>
             <circle cx="12" cy="12" r="3"/>
           </svg>
           Preview
         </button>
         <div class="project-number">04</div>
         <div class="project-content">
-          <div class="project-period">University Project - Replication — Zoph &amp; Le, 2017</div>
-          <h2 class="project-title">Neural Architecture Search<br/><em>with Reinforcement Learning</em></h2>
+          <div class="project-period">University Project</div>
+          <h2 class="project-title">Multitask Linguistic Reasoning System<br/><em>with Contextual Memory and LLM Agents</em></h2>
           <ul class="project-bullets">
-            <li>Replicated a controller RNN trained with REINFORCE to generate and optimise neural network architectures automatically.</li>
-            <li>Reproduced child network training loops on image classification tasks, evaluating architectures via validation accuracy as reward signal.</li>
-            <li>Analysed convergence behaviour and architecture diversity across search iterations, validating results against the original paper benchmarks.</li>
+            <li>Built a data pipeline to collect, clean, and structure heterogeneous textual datasets for multitask NLP and language reasoning.</li>
+            <li>Implemented and fine-tuned a multi-agent LLM architecture, combining retrieval, planning, and task-specific reasoning to solve complex NLP tasks.</li>
+            <li>Measured retrieval relevance, reasoning accuracy, and response quality through statistical and error analysis across diverse linguistic tasks to guide system improvements.</li>
+            <li>Deployed the RAG and multi-agent pipeline using Azure AI services, setting up automated CI/CD workflows for reliable releases.</li>
+            <li>Implemented MLOps practices and monitoring dashboards to track model quality and system performance in production.</li>
           </ul>
           <div class="project-stack">
-            <span>Python</span><span>PyTorch</span><span>Reinforcement Learning</span>
-            <span>REINFORCE</span><span>RNN Controller</span><span>AutoML</span>
-            <span>NAS</span><span>CIFAR-10</span>
+            <span>Python</span><span>Transformers</span><span>LangChain</span>
+            <span>GPT-4</span><span>RAG</span><span>Vector Databases</span>
+            <span>Multi-Agent Systems</span><span>Prompt Engineering</span>
+            <span>Chain-of-Thought</span><span>NLP</span>
+            <span>Azure AI</span><span>Azure OpenAI</span><span>Azure AI Search</span>
+            <span>Azure Machine Learning</span><span>Docker</span><span>Git</span>
+            <span>CI/CD</span><span>MLOps</span><span>Model Monitoring</span>
           </div>
           <button class="view-project-btn" data-id="p04">View Project →</button>
         </div>
         <div class="project-accent"></div>
       </div>
 
+      <!-- PROJECT 5 — CURRENT 12 -->
       <div class="project-card animate-in" style="--delay:1.0s">
         <button class="preview-btn" data-project="05" aria-label="Preview project">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+            <path d="M1 12s4-8 11 8 11 8-11 8-11-8-11-8z"/>
             <circle cx="12" cy="12" r="3"/>
           </svg>
           Preview
         </button>
         <div class="project-number">05</div>
         <div class="project-content">
-          <div class="project-period">University Project - Replication — Chijiwa et al., 2023</div>
-          <h2 class="project-title">Transferring Learning Trajectories<br/><em>on Neural Networks</em></h2>
+          <div class="project-period">University Project</div>
+          <h2 class="project-title">Proactive Multimodal Intelligent Life Assistant<br/><em>with Personalized Learning (Android Application)</em></h2>
           <ul class="project-bullets">
-            <li>Replicated the learning trajectory transfer framework, enabling a target network to inherit the optimisation path of a source network across different architectures.</li>
-            <li>Implemented function-preserving transformations and trajectory alignment mechanisms to accelerate convergence on downstream tasks.</li>
-            <li>Benchmarked training efficiency gains and generalisation performance against standard fine-tuning and random initialisation baselines.</li>
+            <li>Designed a data pipeline to collect and preprocess behavioral, contextual, and interaction data for personalized user modeling.</li>
+            <li>Implemented a reinforcement learning framework using DQN to learn user habits and optimize recommendations and decision-making from contextual feedback.</li>
+            <li>Assessed recommendation quality and policy performance through statistical analysis and offline experimentation across diverse user scenarios to improve personalization.</li>
+            <li>Deployed the personalization and inference pipeline on AWS (EC2, S3, SageMaker), automating releases through CI/CD.</li>
+            <li>Established MLOps workflows and monitoring to track model performance and recommendation behavior in production.</li>
           </ul>
           <div class="project-stack">
-            <span>Python</span><span>PyTorch</span><span>Transfer Learning</span>
-            <span>Optimisation</span><span>Fine-tuning</span><span>Knowledge Transfer</span>
-            <span>ResNet</span><span>Vision Transformers</span>
+            <span>Python</span><span>Kotlin</span><span>PyTorch</span><span>TensorFlow</span>
+            <span>Reinforcement Learning</span><span>DQN</span><span>Recommender Systems</span>
+            <span>GPT-4</span><span>Context-Aware Systems</span><span>Multimodal Learning</span>
+            <span>Deep Learning</span><span>Edge AI</span><span>Personalization</span>
+            <span>AWS EC2</span><span>AWS S3</span><span>AWS SageMaker</span>
+            <span>Docker</span><span>Git</span><span>CI/CD</span><span>MLOps</span>
+            <span>Model Monitoring</span>
           </div>
           <button class="view-project-btn" data-id="p05">View Project →</button>
         </div>
         <div class="project-accent"></div>
       </div>
 
+      <!-- PROJECT 6 — CURRENT 14 -->
       <div class="project-card animate-in" style="--delay:1.15s">
         <button class="preview-btn" data-project="06" aria-label="Preview project">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+          <svg width="14" height="14" viewBox="0 0 24 12" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M1 12s4-8 11 8 11 8-11 8-11-8-11-8z"/>
             <circle cx="12" cy="12" r="3"/>
           </svg>
           Preview
         </button>
         <div class="project-number">06</div>
         <div class="project-content">
-          <div class="project-period">University Project - Replication — Huichuan Zhou, 2024</div>
-          <h2 class="project-title">Feature Detection Comparison:<br/><em>Classical vs Deep Learning Methods</em></h2>
+          <div class="project-period">University Project</div>
+          <h2 class="project-title">Real-Time Image Processing Application<br/><em>for Security Camera Monitoring</em></h2>
           <ul class="project-bullets">
-            <li>Replicated a systematic comparative study of classical feature detectors (SIFT, SURF, ORB, FAST) against deep learning-based methods (SuperPoint, D2-Net) across varied imaging conditions.</li>
-            <li>Evaluated detectors on repeatability, matching precision, and computational efficiency under illumination changes, scale variation, and viewpoint transformation.</li>
-            <li>Reproduced quantitative benchmarks on HPatches and custom datasets, confirming the superiority of learned descriptors under challenging conditions.</li>
+            <li>Developed a data processing pipeline to ingest and preprocess high-resolution video streams for real-time computer vision and security monitoring.</li>
+            <li>Implemented and optimized computer vision algorithms for filtering, edge detection, and color correction in C++, leveraging parallel processing for high-throughput image analysis.</li>
+            <li>Quantified processing performance and latency through benchmarking across different video resolutions and workloads to identify optimization opportunities.</li>
+            <li>Deployed the image processing application using Azure AI and cloud services, setting up automated CI/CD pipelines for reliable releases.</li>
+            <li>Applied MLOps practices and monitoring dashboards (Azure Monitor) to track application performance and reliability in production.</li>
           </ul>
           <div class="project-stack">
-            <span>Python</span><span>OpenCV</span><span>PyTorch</span>
-            <span>SIFT</span><span>ORB</span><span>SuperPoint</span>
-            <span>D2-Net</span><span>Image Processing</span><span>Computer Vision</span>
+            <span>C++</span><span>Python</span><span>OpenCV</span><span>Qt</span>
+            <span>Multithreading</span><span>Image Processing</span><span>Computer Vision</span>
+            <span>Parallel Computing</span><span>High-Performance Computing</span>
+            <span>Azure AI</span><span>Azure Machine Learning</span>
+            <span>Azure Monitor</span><span>Docker</span><span>Git</span>
+            <span>CI/CD</span><span>MLOps</span><span>Model Monitoring</span>
           </div>
           <button class="view-project-btn" data-id="p06">View Project →</button>
         </div>
         <div class="project-accent"></div>
       </div>
 
-      <div class="project-card animate-in" style="--delay:1.3s">
-        <button class="preview-btn" data-project="07" aria-label="Preview project">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-            <circle cx="12" cy="12" r="3"/>
-          </svg>
-          Preview
-        </button>
-        <div class="project-number">07</div>
-        <div class="project-content">
-          <div class="project-period">University Project - Replication — Silver et al., 2014</div>
-          <h2 class="project-title">Deterministic Policy Gradient<br/><em>Algorithm</em></h2>
-          <ul class="project-bullets">
-            <li>Replicated the Deterministic Policy Gradient (DPG) theorem and its actor-critic implementation, enabling gradient-based policy optimisation in continuous action spaces.</li>
-            <li>Implemented both on-policy and off-policy DPG variants with compatible function approximation, reproducing convergence guarantees from the original paper.</li>
-            <li>Validated the approach on continuous control benchmarks, comparing sample efficiency and policy stability against stochastic policy gradient methods.</li>
-          </ul>
-          <div class="project-stack">
-            <span>Python</span><span>PyTorch</span><span>Reinforcement Learning</span>
-            <span>Actor-Critic</span><span>DPG</span><span>Continuous Control</span>
-          </div>
-          <button class="view-project-btn" data-id="p07">View Project →</button>
-        </div>
-        <div class="project-accent"></div>
-      </div>
-
-      <div class="project-card animate-in" style="--delay:1.45s">
-        <button class="preview-btn" data-project="08" aria-label="Preview project">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-            <circle cx="12" cy="12" r="3"/>
-          </svg>
-          Preview
-        </button>
-        <div class="project-number">08</div>
-        <div class="project-content">
-          <div class="project-period">University Project - Replication — Yang, Meng &amp; Karniadakis, 2020</div>
-          <h2 class="project-title">B-PINNs: Bayesian Physics-Informed<br/><em>Neural Networks for PDE Problems</em></h2>
-          <ul class="project-bullets">
-            <li>Replicated the B-PINN framework combining Bayesian inference with physics-informed neural networks to solve forward and inverse PDE problems under noisy data conditions.</li>
-            <li>Implemented Hamiltonian Monte Carlo (HMC) and variational inference backends to quantify uncertainty in both network parameters and PDE solution fields.</li>
-            <li>Reproduced experiments on Poisson, Burgers, and Schrödinger equations, validating posterior predictive accuracy and uncertainty calibration against original benchmarks.</li>
-          </ul>
-          <div class="project-stack">
-            <span>Python</span><span>PyTorch</span><span>JAX</span>
-            <span>Bayesian Inference</span><span>HMC</span><span>Variational Inference</span>
-            <span>PINNs</span><span>PDEs</span><span>Scientific ML</span>
-          </div>
-          <button class="view-project-btn" data-id="p08">View Project →</button>
-        </div>
-        <div class="project-accent"></div>
-      </div>
-
-      <div class="project-card animate-in" style="--delay:1.6s">
-        <button class="preview-btn" data-project="09" aria-label="Preview project">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-            <circle cx="12" cy="12" r="3"/>
-          </svg>
-          Preview
-        </button>
-        <div class="project-number">09</div>
-        <div class="project-content">
-          <div class="project-period">University Project</div>
-          <h2 class="project-title">Multimodal Visual Perception Platform<br/><em>for Real-Time Cognitive Assistance</em></h2>
-          <ul class="project-bullets">
-            <li>Built a multimodal perception system integrating video, audio, and contextual streams for real-time semantic scene understanding.</li>
-            <li>Combined Vision Transformer (ViT) representations with GPT-4V to extract spatial relations, human interactions, and generate contextual reasoning.</li>
-            <li>Designed a distributed low-latency pipeline with persistent memory and continual learning for dynamic environment understanding.</li>
-          </ul>
-          <div class="project-stack">
-            <span>Python</span><span>PyTorch</span><span>CUDA</span>
-            <span>Transformers</span><span>Multimodal Learning</span><span>Vision-Language Models</span>
-            <span>TensorRT</span><span>ONNX</span><span>Vector Databases</span><span>XAI</span>
-          </div>
-          <button class="view-project-btn" data-id="p09">View Project →</button>
-        </div>
-        <div class="project-accent"></div>
-      </div>
-
-      <div class="project-card animate-in" style="--delay:1.75s">
-        <button class="preview-btn" data-project="10" aria-label="Preview project">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-            <circle cx="12" cy="12" r="3"/>
-          </svg>
-          Preview
-        </button>
-        <div class="project-number">10</div>
-        <div class="project-content">
-          <div class="project-period">University Project</div>
-          <h2 class="project-title">Multitask Linguistic Reasoning System<br/><em>with Contextual Memory and LLM Agents</em></h2>
-          <ul class="project-bullets">
-            <li>Developed a multi-agent LLM system capable of reasoning, planning, and solving complex NLP tasks using GPT-4 orchestration.</li>
-            <li>Implemented a Retrieval-Augmented Generation (RAG) pipeline with vector search to enhance factual accuracy and contextual grounding.</li>
-            <li>Designed a persistent memory module enabling long-term context retention and adaptive response generation across interactions.</li>
-          </ul>
-          <div class="project-stack">
-            <span>Python</span><span>Transformers</span><span>LangChain</span>
-            <span>RAG</span><span>Vector Databases</span><span>Multi-Agent Systems</span>
-            <span>Prompt Engineering</span><span>Chain-of-Thought</span><span>NLP</span>
-          </div>
-          <button class="view-project-btn" data-id="p10">View Project →</button>
-        </div>
-        <div class="project-accent"></div>
-      </div>
-
-      <div class="project-card animate-in" style="--delay:1.9s">
-        <button class="preview-btn" data-project="11" aria-label="Preview project">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-            <circle cx="12" cy="12" r="3"/>
-          </svg>
-          Preview
-        </button>
-        <div class="project-number">11</div>
-        <div class="project-content">
-          <div class="project-period">University Project</div>
-          <h2 class="project-title">On-Device Multimodal Cognitive Assistant<br/><em>with LLM Agents (Android Application)</em></h2>
-          <ul class="project-bullets">
-            <li>Built an on-device intelligent assistant integrating text, voice, and contextual signals for real-time reasoning and task execution.</li>
-            <li>Optimized a mobile LLM (Gemma) with quantization techniques for efficient local inference with minimal latency.</li>
-            <li>Designed a hybrid multi-agent architecture enabling task planning, execution, and seamless edge/cloud collaboration.</li>
-          </ul>
-          <div class="project-stack">
-            <span>Kotlin</span><span>Python</span><span>TensorFlow Lite</span>
-            <span>Whisper</span><span>On-Device AI</span><span>Edge Computing</span>
-            <span>Multi-Agent Systems</span><span>Mobile NLP</span><span>JNI</span><span>Deep Learning</span><span>Multithreading</span>
-          </div>
-          <button class="view-project-btn" data-id="p11">View Project →</button>
-        </div>
-        <div class="project-accent"></div>
-      </div>
-
-      <div class="project-card animate-in" style="--delay:2.05s">
-        <button class="preview-btn" data-project="12" aria-label="Preview project">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-            <circle cx="12" cy="12" r="3"/>
-          </svg>
-          Preview
-        </button>
-        <div class="project-number">12</div>
-        <div class="project-content">
-          <div class="project-period">University Project</div>
-          <h2 class="project-title">Proactive Multimodal Intelligent Life Assistant<br/><em>with Personalized Learning (Android Application)</em></h2>
-          <ul class="project-bullets">
-            <li>Developed a proactive AI assistant capable of anticipating user needs using multimodal signals and behavioral modeling.</li>
-            <li>Implemented reinforcement learning (DQN) to learn user habits and optimize recommendations and decision-making strategies.</li>
-            <li>Designed a hybrid recommendation system combining contextual and collaborative filtering for real-time personalized assistance.</li>
-          </ul>
-          <div class="project-stack">
-            <span>Python</span><span>Kotlin</span><span>Reinforcement Learning</span>
-            <span>Recommender Systems</span><span>GPT-4</span><span>Context-Aware Systems</span>
-            <span>Edge AI</span><span>Personalization</span><span>Deep Learning</span><span>PyTorch</span><span>TensorFlow</span>
-          </div>
-          <button class="view-project-btn" data-id="p12">View Project →</button>
-        </div>
-        <div class="project-accent"></div>
-      </div>
-
-      <div class="project-card animate-in" style="--delay:2.2s">
-        <button class="preview-btn" data-project="13" aria-label="Preview project">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-            <circle cx="12" cy="12" r="3"/>
-          </svg>
-          Preview
-        </button>
-        <div class="project-number">13</div>
-        <div class="project-content">
-          <div class="project-period">University Project</div>
-          <h2 class="project-title">Real-Time Object Recognition<br/><em>Application</em></h2>
-          <ul class="project-bullets">
-            <li>Developed a real-time object detection system processing live video streams with low-latency inference.</li>
-            <li>Implemented multithreaded processing pipelines to efficiently handle video capture and model inference concurrently.</li>
-            <li>Designed a lightweight backend using Flask to manage streaming and real-time prediction requests.</li>
-          </ul>
-          <div class="project-stack">
-            <span>Python</span><span>OpenCV</span><span>Multithreading</span>
-            <span>Computer Vision</span><span>Flask</span><span>Real-Time Systems</span>
-            <span>Deep Learning</span><span>CUDA</span>
-          </div>
-          <button class="view-project-btn" data-id="p13">View Project →</button>
-        </div>
-        <div class="project-accent"></div>
-      </div>
-
-      <div class="project-card animate-in" style="--delay:2.35s">
-        <button class="preview-btn" data-project="14" aria-label="Preview project">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-            <circle cx="12" cy="12" r="3"/>
-          </svg>
-          Preview
-        </button>
-        <div class="project-number">14</div>
-        <div class="project-content">
-          <div class="project-period">University Project</div>
-          <h2 class="project-title">Real-Time Image Processing Application<br/><em>for Security Camera Monitoring</em></h2>
-          <ul class="project-bullets">
-            <li>Built a high-performance image processing application for real-time manipulation of high-resolution video streams.</li>
-            <li>Implemented advanced computer vision algorithms including filtering, edge detection, and color correction in C++.</li>
-            <li>Optimized processing using multithreading to ensure smooth performance and low latency under heavy workloads.</li>
-          </ul>
-          <div class="project-stack">
-            <span>C++</span><span>OpenCV</span><span>Qt</span>
-            <span>Multithreading</span><span>Image Processing</span><span>Computer Vision</span>
-            <span>High-Performance Computing</span>
-          </div>
-          <button class="view-project-btn" data-id="p14">View Project →</button>
-        </div>
-        <div class="project-accent"></div>
-      </div>
-
-      <div class="project-card animate-in" style="--delay:2.5s">
-        <button class="preview-btn" data-project="15" aria-label="Preview project">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-            <circle cx="12" cy="12" r="3"/>
-          </svg>
-          Preview
-        </button>
-        <div class="project-number">15</div>
-        <div class="project-content">
-          <div class="project-period">University Project</div>
-          <h2 class="project-title">Real-Time 3D Reconstruction and<br/><em>Spatial Understanding System (Android Application)</em></h2>
-          <ul class="project-bullets">
-            <li>Developed a real-time 3D reconstruction system combining SLAM, neural rendering, and deep learning on mobile devices.</li>
-            <li>Integrated ORB-SLAM3 and NeRF-based methods to generate dense, photorealistic 3D scene representations from video streams.</li>
-            <li>Designed a semantic spatial understanding pipeline enabling object recognition and interaction within reconstructed environments.</li>
-          </ul>
-          <div class="project-stack">
-            <span>Python</span><span>C++</span><span>CUDA</span>
-            <span>SLAM</span><span>NeRF</span><span>ARCore</span>
-            <span>TensorFlow Lite</span><span>3D Vision</span><span>Neural Rendering</span><span>Spatial AI</span>
-          </div>
-          <button class="view-project-btn" data-id="p15">View Project →</button>
-        </div>
-        <div class="project-accent"></div>
-      </div>
-
-      <div class="all-projects animate-in" style="--delay:2.65s">
+      <div class="all-projects animate-in" style="--delay:1.3s">
         <button class="all-projects-btn" id="btnAllProjects">
           View all projects on GitHub →
         </button>
       </div>
-      
+
     </div>
 
     <div class="nav-pages animate-in" style="--delay:1s">
